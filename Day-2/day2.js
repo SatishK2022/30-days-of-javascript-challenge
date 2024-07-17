@@ -1,3 +1,5 @@
+// Day 2 : Operators
+
 // Activity 1 : Arithmetic Operators
 let num1 = 10;
 let num2 = 5;

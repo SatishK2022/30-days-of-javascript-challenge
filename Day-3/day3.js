@@ -1,3 +1,5 @@
+// Day 3 : Control Structures
+
 // Activity 1 : if-else Statements
 // Task 1 : Write a program to check if a number is positive, negative, or zero, and log the result to the console.
 let num = -10;
