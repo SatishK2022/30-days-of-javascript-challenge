@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-10</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .change-bg {
+            background-color: burlywood;
+        }
+
+        form {
+            background-color: burlywood;
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            border-radius: 10px;
+            border: 1px solid black;
+            gap: 10px;
+        }
+
+        form > input {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Day-10</h1>
+
+    <p id="para">Hello</p>
+    <button id="btn">Click Me</button><br><br>
+
+    <img src="https://images.unsplash.com/photo-1721403715005-cd5df8ab90ee?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300" id="img" alt="Image">
+
+    <p class="change-bg">This a paragraph</p>
+
+    <input type="text" id="input" placeholder="Enter your name"><br><br>
+    
+    <p class="text"></p>
+    <input type="text" id="input1" placeholder="Enter your city">
+
+
+    <form id="form">
+        <input type="email" id="email" placeholder="Enter your email">
+        <input type="password" id="password" placeholder="Enter your password">
+        <input type="submit" id="submit">
+    </form>
+
+    <p class="selected-ele"></p>
+    <select id="select">
+        <option value="One">One</option>
+        <option value="Two">Two</option>
+        <option value="Three">Three</option>
+    </select>
+
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <div class="parent">
+        <div class="child">Div 1</div>
+        <div class="child">Div 2</div>
+        <div class="child">Div 3</div>
+    </div>
+
+    <script src="day10.js"></script>
+</body>
+</html>
